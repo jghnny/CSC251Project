@@ -62,7 +62,7 @@ public class PolicyDemo
       System.out.println();
       
       //display information about the Policy
-      System.out.println("Policy Number: " + policyHolder.getPolicyNumber());
+      /*System.out.println("Policy Number: " + policyHolder.getPolicyNumber());
       System.out.println("Provider Name: " + policyHolder.getProviderName());
       System.out.println("Policyholder's First Name: " + policyHolder.getFirstName());
       System.out.println("Policyholder's Last Name: " + policyHolder.getLastName());
@@ -72,7 +72,7 @@ public class PolicyDemo
       System.out.println("Policyholder's Weight: " + policyHolder.getWeight() + " pounds");
       System.out.printf("Policyholder's BMI: %.2f\n", policyHolder.getBMI());
       System.out.printf("Policy Price: $%.2f\n", policy.getPrice());
-      System.out.print("\nDo you wish to enter information for another account? (Y/N): ");
+      System.out.print("\nDo you wish to enter information for another account? (Y/N): ");*/
       System.out.println(policyHolder);
       answer = keyboard.nextLine();
       policies++;
