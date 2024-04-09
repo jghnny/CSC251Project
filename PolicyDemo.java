@@ -73,7 +73,7 @@ public class PolicyDemo
       System.out.printf("Policyholder's BMI: %.2f\n", policyHolder.getBMI());
       System.out.printf("Policy Price: $%.2f\n", policy.getPrice());
       System.out.print("\nDo you wish to enter information for another account? (Y/N): ");*/
-      System.out.println(policyHolder);
+      System.out.println(policyHolder,policy);
       answer = keyboard.nextLine();
       policies++;
       }while (answer.equalsIgnoreCase("Y"));
