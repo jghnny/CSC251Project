@@ -153,6 +153,11 @@ public class Policy
          
       return price;
    }
+   //toString method for policy
+   public String toString()
+   {
+      return price;
+   }
    
    public void displayInformation()
    {

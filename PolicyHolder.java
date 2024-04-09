@@ -124,6 +124,13 @@ public class PolicyHolder
       
       return (weight * CONVFACTOR) / (height * height);
    }
+   
+   //toString method for PolicyHolder class
+   public String toString()
+   {
+      return policyNumber+"\n"+providerName+"\n"+firstName+"\n"+lastName+"\n"+age+"\n"+smokingStatus+"\n"+height+"\n"+weight;
+   }
+   
    public void displayInformation()
    {
       System.out.println("Policy Number: " + policyNumber);
